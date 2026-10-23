@@ -6,23 +6,26 @@ author: Isabel C Barrio
 date: today
 ---
 
-## Quarto
+# Final class exercise for the OS course in Finse 2026
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-## Running Code
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## 1. Create RStudio project and connect to GitHub
 
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
+There are several ways of creating a directory in GitHub. I find easiest to create  new R project in RStudio as a local repository and then push it to GitHub. 
+The first thing to do (that I always forget!) is to commit at least one file, before you can push the repo to GitHub. Usually these will be files that are automatically generated (.gitignore and the .Rproj itself). Once that is done, you can push your repo to GitHub. A useful package here is usethis.
 
 ```{r}
-#| echo: false
-2 * 2
+#| eval: false
+
+install.packages("usethis")
+library(usethis)
+
+# push the repo to GitHub!
+usethis::use_github()
+
+# create a README file for the repo
+# this is important for describing what the repo is about
+usethis::use_readme_rmd()
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
