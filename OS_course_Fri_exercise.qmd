@@ -167,6 +167,7 @@ plot_obs_over_time(species_data)
 ### 3. Noas comment (25.10.2026) :
 
 I didn't know the collared pika before, cool animal :D
+![Collared Pika Gathering Plants in Alaksa](OS_course_Fri_exercise_files/Pika2249.jpeg)
 
 The `annotate` function in ggplot is new to me as weel, nice tool with the arrow!
 
