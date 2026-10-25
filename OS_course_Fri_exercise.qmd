@@ -8,11 +8,9 @@ date: today
 
 # Final class exercise for the OS course in Finse 2026
 
-
-
 ## 1. Create RStudio project and connect to GitHub
 
-There are several ways of creating a directory in GitHub. I find easiest to create  new R project in RStudio as a local repository and then push it to GitHub. 
+There are several ways of creating a directory in GitHub. I find easiest to create new R project in RStudio as a local repository and then push it to GitHub.
 
 The first thing to do (that I always forget!) is to commit at least one file, before you can push the repo to GitHub. Usually these will be files that are automatically generated (.gitignore and the .Rproj itself). Once that is done, you can push your repo to GitHub. A useful package here is `usethis`.
 
@@ -165,3 +163,13 @@ plot_obs_over_time <- function(dataset) {
 
 plot_obs_over_time(species_data)
 ```
+
+### 3. Noas comment (25.10.2026) :
+
+I didn't know the collared pika before, cool animal :D
+
+The `annotate` function in ggplot is new to me as weel, nice tool with the arrow!
+
+In the `chunk of code` embedded in the text after the figure the `{r}` was missing in order to let it run and show the year in the text. Beside that the code run smoothly on my computer!
+
+Very nice and reproducible!!!
